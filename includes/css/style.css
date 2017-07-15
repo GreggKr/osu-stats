@@ -1,0 +1,123 @@
+/* Highlighting */
+::selection {
+  background: rgb(32, 181, 255);
+}
+
+::-moz-selection {
+  background: rgb(32, 181, 255);
+}
+
+/*  Scroll bar  */
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 125, 255, .3);
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 125, 255, .3);
+}
+
+/* Placeholder attrib (input placeholder="") */
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+::-moz-placeholder {
+  color: #fff;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
+::-ms-input-placeholder {
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+body {
+  font: 15px/1.5 'Raleway', Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-decoration: none;
+  color: #fff;
+  background: #c41ec7;
+  padding-top: 4px;
+  min-height: 50px;
+  border-bottom: #93368f 3px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 17px 0 17px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+input {
+  font-family: inherit;
+}
+
+.user {
+  margin: 0;
+}
+
+/* Mobile */
+@media(max-width: 768px) {
+  header #branding {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-top: 8px;
+  }
+
+  .user {
+    text-align: center;
+  }
+}
