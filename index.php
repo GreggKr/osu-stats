@@ -90,11 +90,6 @@ if (isset($_GET['user'])) {
   </header>
   <br />
   <div class="container">
-    <form method="POST">
-      <input type="text" name="token" placeholder="osu!API token" />
-      <input type="submit" value="Update token" />
-    </form>
-    <br />
     <form method="GET">
       <input type="text" name="user" placeholder="Search users..." />
       <input type="submit" value="Search" />
